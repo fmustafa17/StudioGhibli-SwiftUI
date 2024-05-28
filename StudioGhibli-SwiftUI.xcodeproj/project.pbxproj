@@ -13,6 +13,7 @@
 		D88CC2282C0573710014E574 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC2272C0573710014E574 /* MovieListView.swift */; };
 		D88CC22A2C0573FA0014E574 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */; };
 		D88CC22C2C0574500014E574 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC22B2C0574500014E574 /* Movie.swift */; };
+		D88CC22E2C057BA70014E574 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC22D2C057BA70014E574 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D88CC2272C0573710014E574 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
 		D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		D88CC22B2C0574500014E574 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D88CC22D2C057BA70014E574 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D88CC2272C0573710014E574 /* MovieListView.swift */,
+				D88CC22D2C057BA70014E574 /* MovieDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D88CC22E2C057BA70014E574 /* MovieDetailView.swift in Sources */,
 				D88CC2162C056E5E0014E574 /* StudioGhibli_SwiftUIApp.swift in Sources */,
 				D88CC22A2C0573FA0014E574 /* MoviesViewModel.swift in Sources */,
 				D88CC22C2C0574500014E574 /* Movie.swift in Sources */,
