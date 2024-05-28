@@ -11,6 +11,8 @@
 		D88CC21A2C056E5F0014E574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88CC2192C056E5F0014E574 /* Assets.xcassets */; };
 		D88CC21E2C056E5F0014E574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88CC21D2C056E5F0014E574 /* Preview Assets.xcassets */; };
 		D88CC2282C0573710014E574 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC2272C0573710014E574 /* MovieListView.swift */; };
+		D88CC22A2C0573FA0014E574 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */; };
+		D88CC22C2C0574500014E574 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC22B2C0574500014E574 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D88CC21B2C056E5F0014E574 /* StudioGhibli_SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudioGhibli_SwiftUI.entitlements; sourceTree = "<group>"; };
 		D88CC21D2C056E5F0014E574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D88CC2272C0573710014E574 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		D88CC22B2C0574500014E574 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 		D88CC2252C056FD70014E574 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 		D88CC2262C056FE90014E574 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D88CC22B2C0574500014E574 /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88CC2162C056E5E0014E574 /* StudioGhibli_SwiftUIApp.swift in Sources */,
+				D88CC22A2C0573FA0014E574 /* MoviesViewModel.swift in Sources */,
+				D88CC22C2C0574500014E574 /* Movie.swift in Sources */,
 				D88CC2282C0573710014E574 /* MovieListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
