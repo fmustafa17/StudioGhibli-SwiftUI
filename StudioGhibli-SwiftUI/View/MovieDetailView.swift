@@ -23,7 +23,7 @@ struct MovieDetailView: View {
             // Movie text details with pastel pink background and rounded corners
             VStack(alignment: .leading) {
                 ZStack(alignment: .leading) {
-                    Color.pink.opacity(0.3)
+                    Color.randomPastelColor()
                         .cornerRadius(12)
                         .frame(maxWidth: .infinity, maxHeight: 100, alignment: .leading)
                     

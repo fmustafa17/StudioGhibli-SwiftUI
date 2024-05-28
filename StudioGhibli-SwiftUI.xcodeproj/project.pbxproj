@@ -14,6 +14,7 @@
 		D88CC22A2C0573FA0014E574 /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */; };
 		D88CC22C2C0574500014E574 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC22B2C0574500014E574 /* Movie.swift */; };
 		D88CC22E2C057BA70014E574 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC22D2C057BA70014E574 /* MovieDetailView.swift */; };
+		D88CC2322C0584B00014E574 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88CC2312C0584B00014E574 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D88CC2292C0573FA0014E574 /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
 		D88CC22B2C0574500014E574 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		D88CC22D2C057BA70014E574 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		D88CC2312C0584B00014E574 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		D88CC2142C056E5E0014E574 /* StudioGhibli-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D88CC2302C05849F0014E574 /* Extensions */,
 				D88CC2262C056FE90014E574 /* Model */,
 				D88CC2252C056FD70014E574 /* ViewModel */,
 				D88CC2242C056FD10014E574 /* View */,
@@ -100,6 +103,14 @@
 				D88CC22B2C0574500014E574 /* Movie.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D88CC2302C05849F0014E574 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D88CC2312C0584B00014E574 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				D88CC22A2C0573FA0014E574 /* MoviesViewModel.swift in Sources */,
 				D88CC22C2C0574500014E574 /* Movie.swift in Sources */,
 				D88CC2282C0573710014E574 /* MovieListView.swift in Sources */,
+				D88CC2322C0584B00014E574 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
