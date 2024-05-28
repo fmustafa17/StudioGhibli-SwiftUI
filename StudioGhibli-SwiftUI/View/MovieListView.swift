@@ -20,7 +20,7 @@ struct MovieListView: View {
             ScrollView {
                 LazyVGrid(columns: columns) {
                     ForEach(viewModel.movies) { movie in
-                        NavigationLink(destination: MovieDetailView()) {
+                        NavigationLink(destination: MovieDetailView(movie: movie)) {
                             AsyncImage(url: URL(string: movie.image)) { image in
                                 image.resizable()
                                     .aspectRatio(contentMode: .fit)
