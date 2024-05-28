@@ -10,7 +10,7 @@ import SwiftUI
 struct MovieDetailView: View {
     var movie: Movie
     var body: some View {
-        VStack(alignment: .leading){
+        VStack(alignment: .leading) {
             AsyncImage(url: URL(string: movie.movieBanner)) { image in
                 image
                     .resizable()
@@ -20,30 +20,35 @@ struct MovieDetailView: View {
                 ProgressView()
             }
             
-            VStack(alignment: .leading, spacing: 5) {
-                Text(movie.title)
-                    .font(.title)
-                
-                Text(movie.director)
-                    .font(.caption)
-                
-                Text(movie.releaseDate)
-                    .font(.caption)
+            // Movie text details with pastel pink background and rounded corners
+            VStack(alignment: .leading) {
+                ZStack(alignment: .leading) {
+                    Color.pink.opacity(0.3)
+                        .cornerRadius(12)
+                        .frame(maxWidth: .infinity, maxHeight: 100, alignment: .leading)
+                    
+                    VStack(alignment: .leading, spacing: 5) {
+                        Text(movie.title)
+                            .font(.headline)
+                        
+                        Text(movie.director)
+                            .font(.subheadline)
+                        
+                        Text(movie.releaseDate)
+                            .font(.caption)
+                    }
+                    .padding(10)
+                }
+                .padding(.horizontal, 10)
             }
-            .padding(10)
-            .background(
-                Color.pink.opacity(0.3)
-                    .cornerRadius(12)
-            )
-            .padding(.horizontal, 10)
-            
-            
+
             Text(movie.studioGhibliMovieDescription)
+                .font(.callout)
                 .multilineTextAlignment(.center)
-                .padding()
+                .padding(10)
+            
+            Spacer()
         }
-        
-        Spacer()
     }
 }
 
@@ -65,3 +70,4 @@ struct MovieDetailView: View {
     )
     return MovieDetailView(movie: mockMovie)
 }
+
